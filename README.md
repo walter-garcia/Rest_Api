@@ -41,8 +41,8 @@
 `POST http://localhost/rest_api/public/api/products`
 
 #### Supply with the following properties:
-`name -> string`
-`price -> float`
+`name -> string`/
+`price -> float`/
 `description -> text`
 
 ## Response
