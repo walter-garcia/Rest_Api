@@ -19,11 +19,11 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::namespace('API')->name('api.')->group(function() {
 
-	Route::get('/products', 'ProductController@index')->name('all_products');
-	Route::get('/products/{id}', 'ProductController@show')->name('single_products');
+	Route::get('/products', 'ProductController@index')->name('products.all');
+	Route::get('/products/{id}', 'ProductController@show')->name('products.single');
 
-	Route::post('/products', 'ProductController@store')->name('store_products');
-	Route::put('/products/{id}', 'ProductController@update')->name('update_products');
+	Route::post('/products', 'ProductController@store')->name('products.store');
+	Route::put('/products/{id}', 'ProductController@update')->name('products.update');
 	
-	Route::delete('/products/{id}', 'ProductController@delete')->name('delete_products');
+	Route::delete('/products/{id}', 'ProductController@delete')->name('products.delete');
 });
