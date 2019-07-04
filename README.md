@@ -6,10 +6,11 @@
 `GET api/products`
 
 ##Request
-`GET` http://localhost/rest_api/public/api/products
+`GET http://localhost/rest_api/public/api/products`
 
 ###Response
-`{
+~~~
+{
   "current_page": 1,
   "data": [
     {
@@ -28,4 +29,5 @@
       "created_at": "2019-07-02 12:44:00",
       "updated_at": "2019-07-02 12:44:00"
     }
- }`
+}
+~~~
