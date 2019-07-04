@@ -25,10 +25,30 @@
       "id": 2,
       "name": "Kendrick Terry",
       "price": 4.51,
-      "description": "Maxime ipsum alias ipsum placeat. Deleniti et ut facere voluptates. Reiciendis facilis aliquid        voluptatem vitae consequuntur eos. In deserunt iste et quibusdam vel.",
+      "description": "Maxime ipsum alias ipsum placeat. Deleniti et ut facere voluptates. Reiciendis facilis aliquid.",
       "created_at": "2019-07-02 12:44:00",
       "updated_at": "2019-07-02 12:44:00"
     }
   ]
+}
+~~~
+
+## Add a Product
+
+`POST api/products`
+
+## Request
+`POST http://localhost/rest_api/public/api/products`
+
+#### Supply with the following properties:
+`name -> string
+price -> float
+description -> text`
+
+## Response
+~~~
+{
+  "msg": "Product Created Successfully",
+  "code": 201
 }
 ~~~
