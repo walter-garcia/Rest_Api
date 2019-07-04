@@ -2,7 +2,6 @@
 
 ## List Products
 
-#### List all products
 `GET api/products`
 
 ## Request
@@ -70,5 +69,20 @@
 {
   "msg": "Product Updated Successfully",
   "code": 201
+}
+~~~
+
+## Delete a Product
+
+`DELETE api/products/id`
+
+## Request
+`DELETE http://localhost/rest_api/public/api/products/id`
+
+## Response
+~~~
+{
+  "msg": "Product (Product Name) Deleted Successfully",
+  "code": 200
 }
 ~~~
