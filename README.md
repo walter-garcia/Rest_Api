@@ -41,14 +41,34 @@
 `POST http://localhost/rest_api/public/api/products`
 
 #### Supply with the following properties:
-`name -> string`/
-`price -> float`/
+`name -> string`
+`price -> float`
 `description -> text`
 
 ## Response
 ~~~
 {
   "msg": "Product Created Successfully",
+  "code": 201
+}
+~~~
+
+## Update a Product
+
+`PUT api/products/id`
+
+## Request
+`PUT http://localhost/rest_api/public/api/products/id`
+
+#### Supply new information(s):
+`name -> string`
+`price -> float`
+`description -> text`
+
+## Response
+~~~
+{
+  "msg": "Product Updated Successfully",
   "code": 201
 }
 ~~~
