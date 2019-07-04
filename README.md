@@ -1,14 +1,14 @@
-<h1>Rest Api</h1>
+# Rest Api
 
-###List Products
+## List Products
 
-####List all products
+#### List all products
 `GET api/products`
 
-##Request
+## Request
 `GET http://localhost/rest_api/public/api/products`
 
-###Response
+## Response
 ~~~
 {
   "current_page": 1,
@@ -29,5 +29,6 @@
       "created_at": "2019-07-02 12:44:00",
       "updated_at": "2019-07-02 12:44:00"
     }
+  ]
 }
 ~~~
