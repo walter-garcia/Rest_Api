@@ -40,9 +40,11 @@
 `POST http://localhost/rest_api/public/api/products`
 
 #### Supply with the following properties:
-`name -> string`
-`price -> float`
-`description -> text`
+Property    | Type
+--------    | ----
+name        | string
+price       | float
+description | text
 
 ## Response
 ~~~
@@ -60,9 +62,11 @@
 `PUT http://localhost/rest_api/public/api/products/id`
 
 #### Supply new information(s):
-`name -> string`
-`price -> float`
-`description -> text`
+Property    | Type
+--------    | ----
+name        | string
+price       | float
+description | text
 
 ## Response
 ~~~
