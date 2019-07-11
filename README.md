@@ -59,7 +59,7 @@ description | text
 `PUT api/products/id`
 
 ## Request
-`PUT http://localhost/rest_api/public/api/products/id`
+`PUT http://localhost/rest_api/public/api/products/1`
 
 #### Supply new information(s):
 Property    | Type
@@ -81,7 +81,7 @@ description | text
 `DELETE api/products/id`
 
 ## Request
-`DELETE http://localhost/rest_api/public/api/products/id`
+`DELETE http://localhost/rest_api/public/api/products/1`
 
 ## Response
 ~~~
